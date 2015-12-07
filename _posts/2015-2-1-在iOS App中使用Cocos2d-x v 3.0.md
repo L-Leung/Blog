@@ -1,7 +1,12 @@
 ---
 layout: post
 title: 在iOS App中使用Cocos2d-x v 3.0
+description: "iOS App Cocos2d-x 混编."
 categories: Cocos2d-x
+---
+
+> iOS App Cocos2d-x 混编.
+
 ---
 
 1. 将cocos2d文件夹拖到UIKit项目文件夹中, 将libs.xcodeproj拖到Xcode项目里面

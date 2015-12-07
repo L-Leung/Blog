@@ -1,8 +1,12 @@
 ---
 layout: post
-title: Cocos2d-x下载头像（一）——下载网络图片并缓存
-description: "Cocos2d-x中下载游戏头像并缓存的实现."
+title: Cocos2d-x下载头像（一)
+description: "Cocos2d-x中下载网络图片并缓存."
 categories: Cocos2d-x
+---
+
+> Cocos2d-x中下载网络图片并缓存.
+
 ---
 
 当前在游戏开发中，无论大型游戏还是休闲小游戏，都喜欢加入好友系统，那就涉及到获取好友头像的需求，那在Cocos2d-x中如果获取网络图片呢？
