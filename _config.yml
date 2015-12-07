@@ -1,1 +1,78 @@
-baseurl: /Blog
+title:            LLeung's Blog
+description:      分享.
+disqus_shortname: LLeung
+reading_time:     true
+words_per_minute: 200
+# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
+# When testing locally leave blank or use http://localhost:4000
+url:
+
+# Owner/author information
+owner:
+  name:           LLeung
+  avatar:         avatar.jpg
+  bio:            "."
+  # email:          you@email.com
+  # Social networking links used in footer. Update and remove as you like.
+  # twitter:
+  # facebook:
+  github:         L-Leung
+  # stackexchange:
+  # linkedin:
+  # instagram:
+  # flickr:
+  # tumblr:
+  # google plus id, include the '+', eg +mmistakes
+  # google_plus:    +
+
+share:
+    weibo:    true
+    facebook: false
+    twitter:  false
+
+# Background image to be tiled on all pages
+background:
+
+# Analytics and webmaster tools stuff goes here
+# Baidu Analytics
+ba_track_id: 0a80e8bce4e3c4a42947063cd55a3385
+# Google Analytics
+# google_analytics:
+# google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+# bing_verify:
+
+
+
+# Markdown Processors
+highlighter: pygments
+# markdown:    kramdown #redcarpet
+# kramdown:
+#   input: GFM
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - fenced_code_blocks
+    - no_intra_emphasis
+    - strikethrough
+    - autolink
+    - tables
+
+# Plugins
+gems: [jekyll-sitemap, jekyll-paginate]
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink:      /:categories/:title/ # https://github.com/mojombo/jekyll/wiki/Permalinks
+paginate_path:  /page:num
+timezone:       Asia/Hong_Kong # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+future:         true
+
+# Amount of post to show on home page
+paginate: 5
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
