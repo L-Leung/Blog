@@ -9,4 +9,6 @@ comments: false
 modified: 2015-12-07
 ---
 
-> 本博客基于 [hpstr-jekyll-theme](https://mademistakes.com/work/hpstr-jekyll-theme/) 修改.
+- iOS Developer
+
+_本博客基于 [hpstr-jekyll-theme](https://mademistakes.com/work/hpstr-jekyll-theme/) 修改._
